@@ -1,0 +1,212 @@
+/* 
+   Note: The following CSS organization is for the speed of development.
+   Each component and page is intended to have its own style module.
+   This structure may not be the final intended structure.
+*/
+
+.weather-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.weather-title {
+    color: #06dfdf;
+    margin: 0;
+}
+
+.search-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.input-container{
+    display: flex;
+    width: 100%;
+    max-width: 300px;
+    position: relative;
+    margin-right: 1rem;
+}
+
+.list-search-container {
+    position: absolute;
+    top: 49px;
+    background: #fff;
+    width: 100%;
+}
+
+.list-search-item {
+    display: flex;
+    border: 1px solid #ccc;
+    border-top: 0;
+    padding: 1rem;
+    cursor: pointer;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.list-search-item:hover {
+    background-color: #eee;
+}
+
+.lon-lat {
+    font-size: 11px;
+}
+
+.weather-input {
+    padding: 0.75rem;
+    border: 1px solid #ccc;
+    width: 100%;
+}
+
+.weather-input:focus {
+    outline: none;
+}
+
+.weather-detail-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 1rem;
+    align-items: center;
+    border: 1px solid #ddd;
+    margin-top: 2rem;
+    padding: 1rem;
+    width: 100%;
+    max-width: 300px;
+    border-radius: 4px;
+    box-shadow: 2px 2px 2px 2px #f4f4f4;
+}
+
+.weather-detail-title {
+    font-size: 24px;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+}
+
+.weather-detail-temp {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.list-detail {
+    width: 100%;
+}
+
+.ul-list-detail {
+    margin: 0;
+    -webkit-column-count: 2;
+    -moz-column-count: 2;
+    column-count: 2;
+}
+
+.ul-list-detail li {
+    margin-bottom: 5px;
+}
+
+.card-section {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 100%;
+    max-width: 500px;
+}
+
+.card-section-title {
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.card-section-sub-title {
+    font-size: 16px;
+    color: #888;
+}
+
+.card-container {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 1rem;
+    box-shadow: 2px 2px 2px 2px #f4f4f4;
+}
+
+.stats-container {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.stats-section {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
+.stats-title {
+    font-weight: bold;
+    margin: 0;
+    margin-bottom: 0.75rem;
+    font-size: 14px;
+}
+
+.tab-bar-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+}
+
+.tab-bar-item {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.5rem 0.75rem;
+    font-weight: bold;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.tab-bar-item.green {
+    background: #d7f5f3;
+    color: #38b2ac;
+}
+
+.tab-bar-item.purple {
+    background: #e9e0ff;
+    color: #553c9a;
+}
+
+.tab-bar-item.blue {
+    background: #cce6ff;
+    color: #3182ce;
+}
+
+.tab-bar-count {
+    display: flex;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+}
+
+.tab-bar-item.green .tab-bar-count {
+    background: #38b2ac;
+}
+
+.tab-bar-item.purple .tab-bar-count {
+    background: #553c9a;
+}
+
+.tab-bar-item.blue .tab-bar-count {
+    background: #3182ce;
+}

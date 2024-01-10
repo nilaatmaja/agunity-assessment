@@ -1,0 +1,71 @@
+[
+    {
+        "category": "men",
+        "total": "212.9M",
+        "filteredBy": "country",
+        "list": [
+            {
+                "total": "12.84M",
+                "name": "Australia"
+            },
+            {
+                "total": "16.46M",
+                "name": "Ghana"
+            },
+            {
+                "total": "139.13M",
+                "name": "Indonesia"
+            },
+            {
+                "total": "27.32M",
+                "name": "Kenya"
+            }
+        ]
+    },
+    {
+        "category": "women",
+        "total": "212.9M",
+        "filteredBy": "country",
+        "list": [
+            {
+                "total": "12.94M",
+                "name": "Australia"
+            },
+            {
+                "total": "16.38M",
+                "name": "Ghana"
+            },
+            {
+                "total": "137.23M",
+                "name": "Indonesia"
+            },
+            {
+                "total": "27.66M",
+                "name": "Kenya"
+            }
+        ]
+    },
+    {
+        "category": "youth",
+        "total": "172.9M",
+        "filteredBy": "country",
+        "list": [
+            {
+                "total": "5.71M",
+                "name": "Australia"
+            },
+            {
+                "total": "14.62M",
+                "name": "Ghana"
+            },
+            {
+                "total": "82.96M",
+                "name": "Indonesia"
+            },
+            {
+                "total": "24.42M",
+                "name": "Kenya"
+            }
+        ]
+    }
+]
